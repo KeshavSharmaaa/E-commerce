@@ -22,6 +22,6 @@ export const getData = async (endpoint: string) => {
 };
 
 export const getProducts = async () => {
-  const products = await axios.get( "https://ecommerce-k4lt.onrender.com/products");
+  const products = await axios.get( "https://e-commerce-yroz.onrender.com/products");
   return products;
 };

@@ -14,7 +14,7 @@ const Category = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const endpoint = `https://ecommerce-k4lt.onrender.com/categories/${id}`;
+      const endpoint = `https://e-commerce-yroz.onrender.com/categories/${id}`;
       try {
         setLoading(true);
         const data = await getData(endpoint);

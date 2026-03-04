@@ -8,7 +8,7 @@ const Highlights = () => {
   const [highlightsData, setHighlightsData] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
-      const endpoint = "https://ecommerce-k4lt.onrender.com/highlights";
+      const endpoint = "https://e-commerce-yroz.onrender.com/highlights";
       try {
         const data = await getData(endpoint);
         setHighlightsData(data);

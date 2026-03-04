@@ -8,7 +8,7 @@ const Blog = () => {
   const [blogsData, setBlogsData] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
-      const endpoint = "https://ecommerce-k4lt.onrender.com/blogs";
+      const endpoint = "https://e-commerce-yroz.onrender.com/blogs";
       try {
         const data = await getData(endpoint);
         setBlogsData(data);

@@ -14,7 +14,7 @@ const CheckoutBtn = ({ products, totalAmt }: Props) => {
   const handleCheckout = async () => {
     const stripe = await stripePromise;
 
-    const response = await fetch("https://ecommerce-k4lt.onrender.com/checkout", {
+    const response = await fetch("https://e-commerce-yroz.onrender.com/checkout", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

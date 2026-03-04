@@ -32,7 +32,7 @@ const BannerCategories = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const endpoint = "https://ecommerce-k4lt.onrender.com/categories";
+      const endpoint = "https://e-commerce-yroz.onrender.com/categories";
       try {
         const data = await getData(endpoint);
         setCategories(data);

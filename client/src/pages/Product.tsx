@@ -25,8 +25,8 @@ const Product = () => {
   const { id } = useParams();
 
   const endpoint = id
-    ? `https://ecommerce-k4lt.onrender.com/products/${id}`
-    : "https://ecommerce-k4lt.onrender.com/products/";
+    ? `https://e-commerce-yroz.onrender.com/products/${id}`
+    : "https://e-commerce-yroz.onrender.com/products/";
   useEffect(() => {
     const fetchData = async () => {
       try {
